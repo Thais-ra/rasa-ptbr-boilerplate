@@ -503,3 +503,14 @@
 - esqueça os meus dados
 - remova meu CPF e data de nascimento
 - limpar dados
+
+## intent:informar_nome
+- Meu nome é [Thais](nome)
+- meu nome e [ana](nome)
+- pode me chamar de [Gabriela](nome)
+- me chamam de [juju](nome)
+- Me chamo [Beatriz](nome)
+- me chama de [Raissa](nome)
+- atendo por [Larissa](nome)
+- eu sou [Bruna](nome)
+- Se refira a mim por [Fernanda](nome)

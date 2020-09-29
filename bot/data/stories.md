@@ -354,3 +354,9 @@
 ## story_limpar_slots
 * limpar_slots
     - action_restart
+    
+## story_reconhece_nome
+* cumprimentar
+    - utter_cumprimentar
+* informar_nome
+    - utter_reconhece_nome
