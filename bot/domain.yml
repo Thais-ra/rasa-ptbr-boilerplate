@@ -29,23 +29,17 @@ intents:
 - historia
 - testa_acoes
 - objetivo
-<<<<<<< HEAD
 - daria
-=======
 - anime
->>>>>>> Criando slots
 - avatar
 - harry_potter
 - friends
 - o_que_e_boss
-<<<<<<< HEAD
 - informa_telefone
 - cancelar
 - request_login
 - limpar_slots
-=======
 - informar_nome
->>>>>>> Criando slots
 entities:
 - religiao
 - time
@@ -65,25 +59,19 @@ entities:
 - historia
 - telefone
 - cpf
-<<<<<<< HEAD
 - daria
 - dada_nascimento
-=======
 - nome
->>>>>>> Criando slots
 slots:
   telefone:
     type: unfeaturized
   cpf:
-<<<<<<< HEAD
     type: unfeaturized
   data_nascimento:
     type: unfeaturized
-=======
     type: text
   nome:
     type: text
->>>>>>> Criando slots
 responses:
   utter_fallback:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
