@@ -1,0 +1,18 @@
+setup:
+ 	config:
+
+build:
+	docker:
+		coach: ./docker/bot.Dockerfile
+		actions: ./docker/actions.Dockerfile
+		bot_telegram: ./docker/bot.Dockerfile
+	config:
+		TELEGRAM_BOT_USERNAME: ${TELEGRAM_BOT_USERNAME}
+		TELEGRAM_TOKEN: ${TELEGRAM_TOKEN}
+		TELEGRAM_WEBHOOK: ${TELEGRAM_WEBHOOK}
+release:
+	command: 
+		- docker build . --no-cache -f docker/requirements.Dockerfile -t botrequirements
+		- mkdir -p bot/models
+run:
+	bot_telegram: rasa run -m models/ -vv --credentials credentials.yml --endpoints endpoints.yml
