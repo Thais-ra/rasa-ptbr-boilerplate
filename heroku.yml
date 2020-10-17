@@ -11,9 +11,9 @@ build:
     TELEGRAM_TOKEN: ${TELEGRAM_TOKEN}
     TELEGRAM_WEBHOOK: ${TELEGRAM_WEBHOOK}
 release:
-  image: bot_telegram
+  image: bot
   command: 
     - mkdir -p bot/models
 run:
-  bot_telegram: rasa run -m models/ -vv --credentials credentials.yml --endpoints endpoints.yml
+  bot: rasa run -m models/ -vv --credentials credentials.yml --endpoints endpoints.yml
 
