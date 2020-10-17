@@ -1,9 +1,10 @@
 build:
   docker:
-    botrequirements: ./docker/heroku-requirements.Dockerfile
-    coach: ./docker/bot.Dockerfile
-    actions: ./docker/actions.Dockerfile
-    bot_telegram: ./docker/bot.Dockerfile
+    bot: ./docker/heroku.Dockerfile
+    # botrequirements: ./docker/heroku-requirements.Dockerfile
+    # coach: ./docker/bot.Dockerfile
+    # actions: ./docker/actions.Dockerfile
+    # bot_telegram: ./docker/bot.Dockerfile
 
   config:
     TELEGRAM_BOT_USERNAME: ${TELEGRAM_BOT_USERNAME}
