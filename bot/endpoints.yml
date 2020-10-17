@@ -8,7 +8,9 @@ action_endpoint:
 
 # Descomente estas linhas para integrar o bot com o Analytics
 #event_broker:
+#  type: pika
 #  url: rabbitmq
 #  username: admin
 #  password: admin
-#  queue: bot_messages
+#  queues: 
+#    - bot_messages
