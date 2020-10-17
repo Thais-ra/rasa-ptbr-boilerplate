@@ -1,6 +1,6 @@
 build:
   docker:
-    botrequirements: ./docker/requirements.Dockerfile
+    botrequirements: ./docker/heroku-requirements.Dockerfile
     coach: ./docker/bot.Dockerfile
     actions: ./docker/actions.Dockerfile
     bot_telegram: ./docker/bot.Dockerfile
